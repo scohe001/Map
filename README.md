@@ -45,7 +45,7 @@ Maps are useful everywhere. Remember the stack exercise with all of the differen
 
 ###How We'll Do It
 
-Each item in a map is actual the conjunction of two items, possibly of different types! You can think of a map item as a Key/Value pair, where we access the value by querying with the key.
+Each item in a map is actually the conjunction of two items, possibly of different types! You can think of a map item as a Key/Value pair, where we access the value by querying with the key.
 
 I gave you a bit of a kickstart by already giving you a Pair struct. You'll notice that we have **two** template types, that's because, like in the example above, the key and value are allowed to be of different types.
 
