@@ -64,7 +64,7 @@ All that's left for you is
 * [size](http://www.cplusplus.com/reference/map/map/size/) (you may want to add a member variable for this one)
 * [empty](http://www.cplusplus.com/reference/map/map/empty/)
 * [count](http://www.cplusplus.com/reference/map/map/count/) (your count should either return 1 or 0 if we have or don't have a pair with the key)
-* keys (should return a vector of all keys in the map)
+* keys (should return a sorted vector of all keys in the map)
 
 *Reminder:* You should have made all of your private Tree functions protected, so you'll have access to them in the Map member functions you're writing!
 
