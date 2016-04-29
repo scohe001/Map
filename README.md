@@ -16,6 +16,8 @@ Don't forget to also templatize the `Node` struct/class. Be sure to compile ever
 
 In addition to templatizing your code, you should also adjust your recursive insert helper function and your recursive search/find function to return `Node *` instead of `void` or `bool` respectively. It'll make things easier in a few steps.
 
+Furthermore, it'll make things easier if you change all of your private fields to protected.
+
 Step 2, Map time!
 ---
 
@@ -63,5 +65,7 @@ All that's left for you is
 * [empty](http://www.cplusplus.com/reference/map/map/empty/)
 * [count](http://www.cplusplus.com/reference/map/map/count/) (your count should either return 1 or 0 if we have or don't have a pair with the key)
 * keys (should return a vector of all keys in the map)
+
+*Reminder:* You should have made all of your private Tree functions protected, so you'll have access to them in the Map member functions you're writing!
 
 **IMPORTANT:** Don't forget to be testing your functions as you make them! If you don't start with the subscript operator, it'll be pretty hard to test things as you'll have no way of populating the map.
