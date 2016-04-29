@@ -32,9 +32,9 @@ A Map is a datastructure that Maps a key to a value. You can think of a vector o
 For example, we could go the other way and map strings to integers (using the STL map as an example):
 
 	map<string, int> m;
-	m["hey!"] = 69;
+	m["hey!"] = 69; //Creates a pair {"hey!", 69} since one doesn't exits
 	m["Hello?"] = 420;
-	m["hey!"] += 2;
+	m["hey!"] += 2; //Modifies the existing pair
 	cout << m["hey!"] << ' ' << m["Hello?"] << endl;
 	
 See it in action [here](http://ideone.com/5cVgUV)!
@@ -63,3 +63,5 @@ All that's left for you is
 * [empty](http://www.cplusplus.com/reference/map/map/empty/)
 * [count](http://www.cplusplus.com/reference/map/map/count/) (your count should either return 1 or 0 if we have or don't have a pair with the key)
 * keys (should return a vector of all keys in the map)
+
+**IMPORTANT:** Don't forget to be testing your functions as you make them! If you don't start with the subscript operator, it'll be pretty hard to test things as you'll have no way of populating the map.

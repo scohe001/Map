@@ -22,6 +22,7 @@ template <class K, class V>
 class Map : public Tree<Pair<K, V>> {
     public:
         Map() { } //begin with an empty tree
+        V& operator[](const K& key);
 };
 
 
