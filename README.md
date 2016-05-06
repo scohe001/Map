@@ -69,3 +69,29 @@ All that's left for you is
 *Reminder:* You should have made all of your private Tree functions protected, so you'll have access to them in the Map member functions you're writing!
 
 **IMPORTANT:** Don't forget to be testing your functions as you make them! If you don't start with the subscript operator, it'll be pretty hard to test things as you'll have no way of populating the map.
+
+
+Step 3, What are they good for?
+---
+Time to put those Maps into action!!
+
+Using the map you made, create a program where the user will enter a sentence, and your map will count the number of each character that appears in the sentence and displays statistics. The sentence `Hi there, I'm an SI Leader` should produce the following output:
+
+	 : 5
+	': 1
+	,: 1
+	H: 1
+	I: 2
+	L: 1
+	S: 1
+	a: 2
+	d: 1
+	e: 4
+	h: 1
+	i: 1
+	m: 1
+	n: 1
+	r: 2
+	t: 1
+	
+After you think you have this down, test your code on the *Alice In Wonderland* text in the github repository (use file streams to read it in!).
