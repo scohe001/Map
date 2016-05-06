@@ -75,23 +75,21 @@ Step 3, What are they good for?
 ---
 Time to put those Maps into action!!
 
-Using the map you made, create a program where the user will enter a sentence, and your map will count the number of each character that appears in the sentence and displays statistics. The sentence `Hi there, I'm an SI Leader` should produce the following output:
+Using the map you made, create a program where the user will enter a sentence, and your map will count the number of each character that appears in the sentence and displays statistics. The sentence `Hi there, I'm an SI Leader` should produce the following output (notice how capital and lowercase letters are treated as one and the same):
 
 	 : 5
 	': 1
 	,: 1
-	H: 1
-	I: 2
-	L: 1
-	S: 1
 	a: 2
 	d: 1
 	e: 4
-	h: 1
-	i: 1
+	h: 2
+	i: 3
+	l: 1
 	m: 1
 	n: 1
 	r: 2
+	s: 1
 	t: 1
 	
 After you think you have this down, test your code on the *Alice In Wonderland* text in the github repository (use file streams to read it in!).
